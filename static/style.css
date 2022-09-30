@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+*{
+    margin: 0%;
+   
+}
+.container{
+    background: center / cover
+    no-repeat url('https://imgs.search.brave.com/8Uh0CciW56z9jisEzO3DlzGPUIcbkpr7OVmkB4-5C3s/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDc3ODM0/MjMuanBn');
+}
+ul{
+    /* background: rgb(3,143,245);
+background: linear-gradient(90deg, rgba(3,143,245,1) 5%, rgba(63,190,255,1) 36%, rgba(78,192,238,1) 100%); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   font-weight: bolder;
+   font-family: 'nunito';
+   padding: 18px;
+   position: sticky;
+   transition: 500ms;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: x-large;
+}
+#logo img{
+    height: 39px;
+    filter: invert();
+}
+li{
+    list-style: none;
+    margin: 0 20px;
+    font-size:medium ;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px grey;
+}
+a:hover{
+    color: rgb(30, 57, 98);
+}
+#intro{
+  
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.large{
+
+color: aliceblue;
+font-size: 6rem;
+text-shadow: 2px 2px grey;
+margin: 2rem 0 0 3rem;
+}
+.small{
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px grey;
+    margin: 0 4rem;
+    
+}
+
+.btn {
+    margin: 7vh 4vh 4vh 37vh;
+    padding: 15px;
+    width: 9vw;
+    border-radius: 7px;
+    box-shadow: 2px 2px grey;
+border: none;
+background: rgb(4,93,158);
+background: linear-gradient(90deg, rgba(4,93,158,1) 5%, rgba(2,115,173,0.541911833092612) 36%, rgba(33,115,161,1) 100%);
+color: aliceblue;
+font-weight: bold;
+}
+.btn:hover{
+cursor: pointer;
+color: rgb(140, 170, 194);
+background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgb(136, 205, 255) 5%, rgba(255, 255, 255, 0.542) 36%, rgb(177, 228, 255) 100%);
+}
+h2{
+ text-align: center;
+    padding: 8px;
+    color: rgb(43, 74, 110);
+text-shadow: 2px   grey;
+display: block;
+}
+.picks{
+    background: rgb(201,240,255);
+background: linear-gradient(142deg, rgba(201,240,255,1) 9%, rgba(225,243,250,1) 61%, rgba(249,233,255,1) 100%);
+width: 100%;
+
+}
+.card{
+    display: inline-block;
+    box-shadow: 2px 2px grey;
+    border-radius: 8px;
+    margin: 3vh 4vh;
+    height: 25vh;
+ width: 15vw;
+ transition: 500ms;
+}
+.card1{
+    background: center / cover no-repeat url(' https://imgs.search.brave.com/jkrZtEjh5im8FflD_zbs_hWCRqFfQfIdnjRTeUQgVA8/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/d3psVGZvWGZrX0xv/THNybDJsZ1h3SGFI/YSZwaWQ9QXBp')
+}
+.card2{
+background: center / cover no-repeat url("https://imgs.search.brave.com/oTRfUMYDxEfTGtbr0le3iyUv2z6pUoDkFDpb-PUYe-E/rs:fit:1200:1200:1/g:ce/aHR0cDovL3dvbWFu/YW5kaG9tZS5tZWRp/YS5pcGNkaWdpdGFs/LmNvLnVrLzIxMzQ4/LzAwMDAwZGY5Zi8w/OGRmL2JsYWNrY3Vy/cmFudGljZWNyZWFt/LTEuanBn");
+}
+.card3{
+    background: center / cover no-repeat url("https://imgs.search.brave.com/sC4xL62M78HWq6q_bQgIv48HoHatXGX-IbUK0Xc80V0/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5k/bFY3SWNqZUM0T1Rz/SGJzYllRYnFnSGFI/YSZwaWQ9QXBp");
+    
+}
+.card4{
+    background: center / cover no-repeat url("https://imgs.search.brave.com/P_agZpnaEqPgkbGVh8qDpXI_p0vDUx6oqkVNTNvOpY0/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Q/a215czNnY20wbVN3/aGJQRUlHWnl3SGFI/YSZwaWQ9QXBp");
+    
+}
+.card5{
+    background: center / cover no-repeat url("https://imgs.search.brave.com/oRvXS8Xo6Sypsss9IsypI4Cpq54LgTuMvxtXyfHcHbY/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC40/Wnd2em9yR0lNSmtj/Z1hMNE9KbTBRSGFI/YSZwaWQ9QXBp");
+
+}
+.card p{
+font-size: larger;
+    position: relative;
+    top: 90px;
+    left: 50px;
+    
+    text-shadow: 2px 2px grey;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.sponsor{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgb(136, 205, 255) 5%, rgba(255, 255, 255, 0.542) 36%, rgb(177, 228, 255) 100%);
+    height: 30vh;
+
+}
+.col{
+   height: 20vh; 
+   margin: 2vh 3.5vw;
+    
+}
+#footer{
+    background: rgb(14, 42, 62);
+    display: flex;
+    flex-direction: row;
+}
+.name img{
+    height: 10vh;
+    filter: invert();
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: white;
+    font-size: x-large;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.about{
+    margin: 4vh 8px  0px;
+    color: aliceblue;
+    width: 70%;
+}
+

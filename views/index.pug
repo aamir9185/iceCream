@@ -1,0 +1,52 @@
+doctype html 
+html 
+    head 
+        title This is title
+        style 
+         include ../static/style.css
+    body 
+        div.container 
+          nav#navbar.top
+             ul 
+                 div#logo 
+                    img(src="/static/logo.png", alt="")
+                    |Ice Age
+                 li #[a(href="/") Home]
+                 li #[a(href="/") About]  
+                 li #[a(href="/contact") Contact Us]
+                 li #[a(href="/") More]
+      
+          section#intro  
+             div.large Welcome to Ice Age 
+             div.small I scream you scream we all scream for Ice Cream
+             button.btn Order Now
+        div.picks 
+          section#picks
+               h2 Top Picks  
+               div.card.card1
+                p ButterScotch   
+               div.card.card2
+                p Black Current  
+               div.card.card3
+                p Choclate
+               div.card.card4
+                p Choco Chip
+               div.card.card5
+                p Strawberry
+        div.sponsor 
+          section#sponsor 
+               h2 Collaborations 
+               img(src="/static/sponsor1.png", alt="baskin robins " , class="col one")
+               img(src="/static/sponsor2.png", alt="Magnum", class="col two ")
+               img(src="https://imgs.search.brave.com/HGWbgaaTdF2DjxWiIyXqGoV1IHISTEpc0RsjjDfWpCg/rs:fit:689:426:1/g:ce/aHR0cHM6Ly93d3cu/aGVyc2hleWljZWNy/ZWFtLmNvbS9pbWFn/ZXMvbG9nby5wbmc", alt="Amul", class="col three")
+               img(src="https://imgs.search.brave.com/0BEI8LjTyo3TXmfK7NzvOkSsudEij1Wd7Dx-ehu6snU/rs:fit:300:240:1/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vTmVzdGxl/X0ljZV9DcmVhbS1s/b2dvLTBFQzc0MDc0/MjMtc2Vla2xvZ28u/Y29tLnBuZw", alt="Magnum", class="col two ")
+               img(src="https://imgs.search.brave.com/4iFP2UYMT3bsGL9S44fDKpFBVzgrPe-c6LP9sHoYZVI/rs:fit:360:360:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1L2Fi/LzRlL2E1YWI0ZTU2/NWJkN2MzOTk4YzRl/OTUyNGJiM2JjOTJm/LnBuZw", alt="Magnum", class="col two ")
+          footer#footer 
+                div.name
+                   img(src="/static/logo.png", alt="")
+                   h4 Ice Age
+                div.about    
+                   p The company was extablished in 1969 and serving the best ice creams since then Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, tempore. Odio, aliquid deserunt sunt iure quasi omnis voluptate, totam alias voluptatum, exercitationem earum voluptatibus in. Perspiciatis suscipit voluptate magni earum?
+                   p You can find all the diffrent flavours over here that you might not find any where else in the town
+        script 
+        include ../static/index.js           
